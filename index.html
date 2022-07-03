@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Tiempo</title>
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script type="text/javascript">
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+
+<section class="about-us " id="modalidades">
+
+    <div class="contenedor1">
+        <div class="caja-titulo">
+            <h2 class="titulo">Consulta el Clima</h2>
+        </div>
+        <form id="search-form">
+            <div class="searchbox">
+                <input type="text" autocomplete="off" placeholder="Buscar una ciudad..." class="search" id="searchbox">
+            </div>
+        </form>
+
+
+
+
+        <div class="contenedor-articulo">
+            <div class="articulo"  data-aos="zoom-in-right" id= "card">
+                <img id="temp-img" src="img/cloudy-day-1.svg">
+                <h2 id="city" >Tegucigalpa Honduras </h2>
+                <h5 id="weather">Soleado</h5>
+                <h4 id="temp"> 30c</h4>
+
+                <div class="maxfecha">
+                    <div class="minimaMaxima">
+                        <h6>Max/min:</h6>
+                        <h6 id="minimamaximatem">20c - 32c</h6>
+                    </div>
+                    <h6 id="date">Fecha: 02/06/2022</h6>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+
+            <div class="partFooter">
+                <p>Sigueme en:</p>
+
+                <div class="social-media">
+                    <a href="https://www.facebook.com/melvinjosue.escobar" target="blank"> <i class="fab fa-facebook-f"> </i> </a>
+                    <a href="https://www.instagram.com/invites/contact/?i=8ggf4tnrvwv3&utm_content=23cf3e3" target="blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</section>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+
+<!--<script src="js/cards.js"></script>-->
+
+</html>
