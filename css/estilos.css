@@ -26,7 +26,7 @@ p {
     color: var(--azul);
     font-weight: 300;
 }
-.temp-img{
+#temp-img{
      width: 120px;
 }
 
