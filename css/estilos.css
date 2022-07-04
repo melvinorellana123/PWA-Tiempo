@@ -26,6 +26,9 @@ p {
     color: var(--azul);
     font-weight: 300;
 }
+.temp-imagen{
+     width: 120px;
+}
 
 .contenedor {
     width: 90%;
